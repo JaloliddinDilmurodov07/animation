@@ -1,0 +1,38 @@
+.box{
+   
+  width: 200px;
+  height: 220px;
+  background-color: pink;
+  animation-name: editColor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+  @keyframes editColor{
+    50%{
+        background-color:yellow ;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+  75%{ background-color: green;
+}
+100%{ background-color: blue;
+}
+
+
+}
+
+.text{
+    animation-name: editText;
+  animation-duration: 2s;
+    text-align: center;
+}
+@keyframes editText{
+
+}
